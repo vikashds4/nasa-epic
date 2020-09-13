@@ -165,7 +165,7 @@ function showPic(itemNum) {
 
     document.getElementById('txtdt').innerHTML=data[itemNum].date;
     // document.getElementById('caption').innerHTML=data[itemNum].caption;
-    document.getElementById('txt_image').innerHTML=data[itemNum].image;
+   // document.getElementById('txt_image').innerHTML=data[itemNum].image;
     document.getElementById('txtlat').innerHTML=data[itemNum].centroid_coordinates.lat;
     document.getElementById('txtlon').innerHTML=data[itemNum].centroid_coordinates.lon;
     // document.getElementById('txtcor').innerHTML=data[itemNum].centroid_coordinates.lon;
