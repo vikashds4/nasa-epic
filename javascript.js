@@ -89,13 +89,13 @@ function doTheJobFor900px(matchMedia) {
   const backButton = document.querySelector(".back-button-container span");
   // const fullScreenIcon = document.querySelector(".full-screen-icon");
   if (matchMedia.matches) {
-    backButton.classList.remove("md-24");
-    backButton.classList.add("md-36");
+    // backButton.classList.remove("md-24");
+    // backButton.classList.add("md-36");
     // fullScreenIcon.classList.remove("md-24");
     // fullScreenIcon.classList.add("md-36");
   } else {
-    backButton.classList.remove("md-36");
-    backButton.classList.add("md-24");
+    // backButton.classList.remove("md-36");
+    // backButton.classList.add("md-24");
     // fullScreenIcon.classList.remove("md-36");
     // fullScreenIcon.classList.add("md-24");
   }
@@ -188,7 +188,7 @@ function handleScroll() {
 // to get viewport dimensions
 getViewportDimensions();
 //listening to enter key press
-startListeningToEnterKeyPress();
+// startListeningToEnterKeyPress();
 
 //starting button splash effect listener
 listenToButtonClickForSplashEffect();
@@ -2073,7 +2073,7 @@ function hideContentModalScreen() {
 function isContentModalOpen() {
   // var modal = document.getElementById("contentModal");
   var modal = document.querySelector(".content-modal-container");
-  const opacity = window.getComputedStyle(modal).opacity;
+  // const opacity = window.getComputedStyle(modal).opacity;
   // console.log(opacity);
   if (opacity != 0) {
     return true;
