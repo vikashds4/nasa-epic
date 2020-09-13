@@ -19,18 +19,24 @@
 .date-box{
 
 position: absolute;
-bottom: 30px;
+top: 20px;
+
 
   
 }
-/* .date-icon{
+.date-icon{
 color:var(--disabled-color);
-pointer-events: ;
-} */
+pointer-events: none;
+position: absolute;
+left: 20px;
+color: #5f94e9;
+}
 
 
 .date{
-
+    left: 0px;
+    width: 40px;
+    opacity: 0;
 
 
 }
@@ -57,7 +63,7 @@ max-width: 450px;
 .image-body{
 
 width: 100%;
-min-height: 400px;
+min-height: 300px;
 }
 /* button*/
 
