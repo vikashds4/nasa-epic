@@ -81,7 +81,7 @@ function changeIconSizeTo20(matchMedia) {
 
 // MEDIA QUERY CODE FOR CHANGING ICON SIZE of back button FOR 900PX+ DEVICES
 var matchMediaMaxWidth900 = window.matchMedia("(min-width: 900px)");
-doTheJobFor900px(matchMediaMaxWidth900);
+// doTheJobFor900px(matchMediaMaxWidth900);
 matchMediaMaxWidth900.addListener(doTheJobFor900px);
 
 function doTheJobFor900px(matchMedia) {
@@ -2073,7 +2073,7 @@ function hideContentModalScreen() {
 function isContentModalOpen() {
   // var modal = document.getElementById("contentModal");
   var modal = document.querySelector(".content-modal-container");
-  // const opacity = window.getComputedStyle(modal).opacity;
+  const opacity = window.getComputedStyle(modal).opacity;
   // console.log(opacity);
   if (opacity != 0) {
     return true;
