@@ -27,6 +27,8 @@ var today;
 
 
 //function for sending request 
+
+
 function sendHttpRequest(method, url, mode) {
 
     const promise = new Promise((resolve, reject) => {
@@ -107,10 +109,9 @@ function downloadPic() {
     var hiddenImage = document.getElementById("hidden-image");
 
     hiddenImage.addEventListener("load", downloadNextPic);
-
     var cdate = changeFormate(date);
     var img_url = "https://api.nasa.gov/EPIC/archive/natural/" + cdate + "/png/" + data[itemNumToDownload].image + ".png?api_key=" + API_KEY;
-
+    
     hiddenImage.src = img_url;
 }
 
@@ -224,6 +225,11 @@ function setMax()
     input.setAttribute("max",this.value);
     input.max=cd;
     
+    
+
+    input.setAttribute("value",this.value);
+    input.value=cd;
+    
 }
 
 setMax();
@@ -238,3 +244,20 @@ function distance_calculate(x1,y1,z1,x2,y2,z2){
     var dis=Math.sqrt(fal);
     return dis.toPrecision(12);
     }
+
+
+    getPic();
+
+
+
+    
+
+
+    function checkButton(currentItemNumber,itemNumToDownload){
+        
+            document.getElementById('btn_rg').style.display="none";
+        
+
+        
+    }
+    
