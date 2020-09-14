@@ -793,8 +793,19 @@ body.modal-open {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  
+ 
+  
+}
+.title2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 2.4rem;
   text-transform: uppercase;
+  
 }
 .page-description-text p:last-child {
   font-family: "Open Sans", sans-serif;
