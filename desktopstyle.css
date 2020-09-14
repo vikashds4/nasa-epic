@@ -27,26 +27,27 @@
 
     .image-container{
       width: calc(var(--vh, 1vh) * 100);
+      background-color: black;
       margin-left: 700px;
       
     }
-
-    
+  
 
     .image-body #pic{
-      height: 700px;
-      width: 700px;
+      height: 600px;
+      width: 600px;
   }
   .image-body{
-    height: calc(var(--vh, 1vh) * 100);
+    height: calc(var(--vh, 1vh) * 86);
     
   }
 
 .container{
-  width: calc(var(--vh, 1vh) * 75);
-  height: calc(var(--vh, 1vh) * 65);
+  width: calc(var(--vh, 1vh) * 55);
+  height: calc(var(--vh, 1vh) * 55);
   position: absolute;
-  top: 250px;
+  top: 200px;
+  left: 70px;
   
 }
 
@@ -63,7 +64,8 @@
   margin-bottom: 0px;
 }
 .dscovr-details .dscovr-image{
-
+align-self: unset;
+margin-left: 100px;
   
 }
 .dscovr-details .dscovr-jpg{
