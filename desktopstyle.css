@@ -24,15 +24,55 @@
   }
 
   @media only screen and (min-width: 900px) {
+
+    .image-container{
+      width: calc(var(--vh, 1vh) * 100);
+      margin-left: 700px;
+      
+    }
+
+    
+
     .image-body #pic{
       height: 700px;
       width: 700px;
   }
   .image-body{
-    height: calc(var(--vh, 1vh) * 90);
-    padding-top: 100px;
+    height: calc(var(--vh, 1vh) * 100);
+    
   }
 
+.container{
+  width: calc(var(--vh, 1vh) * 75);
+  height: calc(var(--vh, 1vh) * 65);
+  position: absolute;
+  top: 250px;
+  
+}
+
+.dscovr-details .dscovr-info p{
+  font-size: 20px;
+}
+
+.container>div{
+  font-size: 18px;
+}
+
+.container>h3{
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.dscovr-details .dscovr-image{
+
+  
+}
+.dscovr-details .dscovr-jpg{
+  height: 250px;
+}
+
+.dscovr-details .dscovr-info h2{
+  font-size: 24px;
+}
 
   }
 
